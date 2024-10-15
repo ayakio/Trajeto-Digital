@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota de Coleta Seletiva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F6F4E9;
+        }
+
+        .header, .footer-section {
+            text-align: center;
+            background-color: #E0DBB6;
+            padding: 20px;
+            position: relative;
+        }
+
+        .header img, .footer-section img {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            width: 100px;
+        }
+
+        h1, .footer-section h1 {
+            font-size: 2.5em;
+            color: #F0EACD;
+            margin: 0;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            padding: 0 50px;
+        }
+
+        .content div {
+            width: 45%;
+        }
+
+        .content h2 {
+            color: #D3C78B;
+            font-weight: normal;
+        }
+
+        .content p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .benefits, .importance {
+            background-color: #FFF;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefits ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .benefits ul li {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .footer button {
+            padding: 10px 30px;
+            font-size: 1.1em;
+            color: #FFF;
+            background-color: #666;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .footer button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="images\truck.png" alt="Recycling truck">
+        <h1>ROTA DE COLETA SELETIVA</h1>
+    </div>
+
+    <div class="content">
+        <div class="benefits">
+            <h2>Por que reciclar é importante?</h2>
+            <p>Reciclar é mais do que um hábito, é um estilo de vida que muda o nosso planeta de forma positiva...</p>
+            <h3>Os benefícios da reciclagem:</h3>
+            <ul>
+                <li>Conservação dos Recursos Naturais</li>
+                <li>Redução da Poluição</li>
+                <li>Economia de Energia</li>
+                <li>Redução dos Resíduos</li>
+                <li>Benefícios Econômicos</li>
+                <li>Desenvolvimento Sustentável</li>
+                <li>Educação e Conscientização</li>
+            </ul>
+        </div>
+
+        <div class="importance">
+            <h2>A importância da coleta seletiva:</h2>
+            <p>A separação correta contribui também para reduzir a contaminação do meio ambiente e para evitar a disseminação de doenças.</p>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <img src="images\truck.png" alt="Recycling truck">
+        <h1>AJUDE O MEIO AMBIENTE</h1>
+    </div>
+
+    
+    <div class="footer">
+        <button onclick="window.location.href='map.html'">Avançar</button>
+    </div>
+</body>
+</html>
